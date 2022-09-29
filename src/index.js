@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './styles/main.css';
+
 import reportWebVitals from './reportWebVitals';
+import Users from './components/Users';
+import RegisteredUsers from './components/RegisteredUsers';
+// import Gallery from './components/Gallery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    {/* <Users /> */}
+    <RegisteredUsers />
+    {/* <Gallery /> */}
   </React.StrictMode>
 );
 

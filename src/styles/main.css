@@ -1,0 +1,105 @@
+table {
+    width: 100%;
+    color: rgb(66, 65, 65)
+  }
+  .form-btn {
+    float: right;
+    margin-right: 150px;
+    background-color: rgb(148, 92, 201);
+    color:azure;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: rgb(234 234 228);
+
+  }
+  .form-bg {
+    background-color: rgb(148, 92, 201);
+    color:azure;
+
+  }
+  .form-group{
+    margin-bottom: 30px;
+  }
+  .form-control{
+    width: 95%;
+    height: 40px;
+  }
+  .btn-primary{
+    background-color: rgb(25, 41, 187);
+    color:azure;
+  }
+
+  .btn-danger{
+    background-color: rgb(253, 98, 98);
+    color:azure;
+  }
+  tbody td{
+    padding: 10px 5px;
+  }
+  tr button{
+    padding: 5px;
+    border-color: transparent;
+  }
+  thead, tfoot{
+    text-align: left;
+  }
+  th{
+    padding: 10px 5px;
+  }
+
+  #modal{
+    background-color:rgb(7, 75, 118); 
+    width:300px; height: 150px; 
+    color: white; 
+    border: 1px solid grey; 
+    text-align: center; 
+    position: fixed; 
+    top:0; 
+    margin-top:100px; 
+    margin-left:33%; 
+    display:none;
+  }
+
+  #form-modal{
+    width: 500px; 
+    padding: 20px 12px; 
+    position: absolute; 
+    top: 0; 
+    left:0; 
+    margin-left: 30%; 
+    margin-top: 50px; 
+    display: none;
+  }
+
+  #close{
+    color: red; 
+    background-color: white; 
+    padding: 4px;
+  }
+  .btn{
+    padding: 7px 5px;
+  }
+
+  .deleteModal{
+    width: 400px;
+    background-color: #fff;
+    border:1px solid grey;
+    height: 150px;
+    text-align: center;
+    position:fixed;
+    top:0;
+    margin-left: 35%;
+    margin-top: 200px;
+    display: none;
+  }
+
+  .edit-modal{
+    width: 500px; 
+    padding: 20px 12px; 
+    position: absolute; 
+    top: 0; 
+    left:0; 
+    margin-left: 30%; 
+    margin-top: 50px; 
+    display: none;
+  }
